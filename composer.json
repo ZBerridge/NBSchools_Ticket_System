@@ -1,12 +1,12 @@
 {
-	"name": "zb/jan-michaels",
+	"name": "zb/nbps-ticket-system",
 	"type": "project",
 	"license": "MIT",
 	"description": "ZB redesign of jan-michaels.com",
 	"authors": [{
 		"name": "Zack Berridge",
 		"email": "zack.berridge@gmail.com",
-		"homepage": "https://github.com/ZBerridge/Jan-Michaels"
+		"homepage": "https://github.com/ZBerridge/NBPS_Ticket_System"
 	}],
     "keywords": [
         "zack_berridge", "composer", "wordpress", "wp", "wp-config"
@@ -23,7 +23,7 @@
 				"type": "wordpress-muplugin",
 				"dist": {
 					"type": "zip",
-					"url": "https://connect.advancedcustomfields.com/index.php?a=download&p=pro&k={%PLUGIN_ACF_KEY}&t={%VERSION}"
+					"url": "https://connect.advancedcustomfields.com/index.php?a=download&p=pro&k=OTgyMTFiMWZmMTUyYWQyZTRhMDdmMmRiMzQyNTc3OWRlZjg2NmJkOWJmOGQ0OTNlNDc0MTY0&t={%VERSION}"
 				},
 				"require": {
 					"composer/installers": "^1.9",
@@ -73,4 +73,20 @@
 	"autoload": {
 		"files": []
 	}
+}
+{
+    "name": "zb/nbps-tickets",
+    "description": "Ticketing system for North Brookfield Public Schools",
+    "require": {
+        "php": "8.3",
+        "composer/installers": "^2.3",
+        "oscarotero/env": "^2.1",
+        "vlucas/phpdotenv": "^5.6"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zack Berridge"
+        }
+    ]
 }

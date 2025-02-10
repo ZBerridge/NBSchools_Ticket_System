@@ -1,0 +1,23 @@
+{
+    "post_type": "ticket",
+    "args": {
+      "labels": {
+        "name": "Tickets",
+        "singular_name": "Ticket",
+        "add_new_item": "Add New Ticket",
+        "new_item": "New Ticket",
+        "edit_item": "Edit Ticket"
+      },
+      "rewrite": {
+        "slug": "ticket"
+      },
+      "menu_position": 5,
+      "menu_icon": "dashicons-format-status",
+      "supports": ["title", "thumbnail", "custom-fields", "comments"],
+      "taxonomies": ["featured"],
+      "show_in_rest": true,
+      "public": false,
+      "has_archive": false,
+      "show_ui": true
+    }
+  }

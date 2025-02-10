@@ -1,0 +1,10 @@
+{
+    "name": "text-area",
+    "title": "Text Area",
+    "description": "A custom text block, designed to work within the styles of the ticketing theme.",
+    "render_callback": "acf_block_render_callback",
+    "render_template": "block-templates/content/text-area.php",
+    "category": "formatting",
+    "icon": "admin-comments",
+    "keywords": ["text", "content", "theme"]
+}

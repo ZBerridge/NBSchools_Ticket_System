@@ -3,13 +3,17 @@
  * Copyright (c) 2024. Designed and built by Zachary Berridge.
  */
 
-//include_once ( __DIR__ . '/includes/custom_post_types.php');
-//include_once ( __DIR__ . '/includes/acf_blocks.php' );
+include_once ( __DIR__ . '/includes/custom_post_types.php');
+include_once ( __DIR__ . '/includes/custom_users.php');
+include_once ( __DIR__ . '/includes/helper_functions.php');
+include_once ( __DIR__ . '/includes/acf_blocks.php' );
 //include_once ( __DIR__ . '/includes/theme_menus.php' );
-//include_once ( __DIR__ . '/includes/nav_walkers.php' );
+include_once ( __DIR__ . '/includes/nav_walkers.php' );
+include_once ( __DIR__ . '/includes/rest_endpoints.php' );
 //include_once ( __DIR__ . '/includes/acf_img_srscets.php' );
 //include_once ( __DIR__ . '/includes/acf_options_page.php' );
-//include_once ( __DIR__ . '/includes/scripts.php' );
+include_once ( __DIR__ . '/includes/scripts.php' );
+
 
 show_admin_bar( false );
 
