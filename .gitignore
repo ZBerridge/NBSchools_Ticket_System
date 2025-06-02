@@ -54,4 +54,4 @@ composer.lock
 # Note: If you wish to whitelist themes,
 # uncomment the next line
 !/wp/wp-content/themes/nb-tickets/*
-/wp/wp-content/themes/nb-tickets/node-modules/
+/wp/wp-content/themes/nb-tickets/node-modules/node_modules/
