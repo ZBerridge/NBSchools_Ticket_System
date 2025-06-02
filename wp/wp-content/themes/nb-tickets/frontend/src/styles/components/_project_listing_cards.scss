@@ -1,0 +1,16 @@
+.listing-card {
+    .card-title-wrap {
+        font-size: 1.25rem;
+        padding: 24px;
+        border-radius: 0 0 2px 2px;
+        border-bottom: 1px solid rgba(160, 160, 160, .2);
+    }
+    .card-text {
+        padding: 16px 24px;
+        border-radius: 0 0 2px 2px;
+        min-height: 12rem;
+    }
+    .card-action {
+        //background-color: $theme-primary-half;
+    }
+}

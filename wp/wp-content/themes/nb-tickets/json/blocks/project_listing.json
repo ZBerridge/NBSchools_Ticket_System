@@ -1,0 +1,10 @@
+{
+    "name": "project-listing",
+    "title": "Project Listing",
+    "description": "A custom block to render out a list of the current projects.",
+    "render_callback": "acf_block_render_callback",
+    "render_template": "block-templates/content/project-listing.php",
+    "category": "formatting",
+    "icon": "admin-comments",
+    "keywords": ["projects", "project", "archive"]
+}

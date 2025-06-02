@@ -55,3 +55,4 @@ composer.lock
 # uncomment the next line
 !/wp/wp-content/themes/nb-tickets/*
 /wp/wp-content/themes/nb-tickets/node-modules/node_modules/
+wp/wp-content/themes/nbps-tickets/node_modules/

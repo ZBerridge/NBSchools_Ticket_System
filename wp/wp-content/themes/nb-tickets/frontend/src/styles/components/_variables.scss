@@ -1,0 +1,27 @@
+$theme-primary: #550685;
+$theme-primary-half: #8209cc;
+$theme-primary-quarter: #6c08a8;
+$black: #000;
+
+.theme-bg {
+    background-color: $theme-primary;
+}
+
+$button-raised-background: $theme-primary;
+$button-raised-background-hover: $theme-primary-half;
+
+  /*@media #{$small-and-down} {
+    // styles for small screens and down
+  }
+  @media #{$medium-and-up} {
+    // styles for medium screens and larger
+  }
+  @media #{$medium-and-down} {
+    // styles for medium screens and down
+  }
+  @media #{$large-and-up} {
+    // styles for large screens and up
+  }
+  @media #{$extra-large-and-up} {
+    // styles for extra large screens and up
+  }*/

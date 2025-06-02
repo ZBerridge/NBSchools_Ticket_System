@@ -1,0 +1,6 @@
+.btn, .btn-large {
+    background-color: $button-raised-background;
+    &:hover, &:focus{
+        background-color: $button-raised-background-hover;
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "post_type": "project",
+    "args": {
+      "labels": {
+        "name": "Projects",
+        "singular_name": "Project",
+        "add_new_item": "Add New Project",
+        "new_item": "New Project",
+        "edit_item": "Edit Project"
+      },
+      "rewrite": {
+        "slug": "project",
+        "feeds": true
+      },
+      "capabilities": {
+        "publish_posts": "publish_project",
+        "edit_posts": "edit_project",
+        "edit_others_posts": "edit_others_project",
+        "read_private_posts": "read_private_project",
+        "edit_post": "edit_project",
+        "delete_post": "delete_project",
+        "read_post": "read_project"
+      },
+      "menu_position": 5,
+      "menu_icon": "dashicons-format-status",
+      "supports": ["title", "thumbnail", "custom-fields", "comments"],
+      "taxonomies": ["featured"],
+      "delete_with_user": false,
+      "show_in_rest": true,
+      "public": true,
+      "has_archive": true,
+      "show_ui": true
+    }
+  }
